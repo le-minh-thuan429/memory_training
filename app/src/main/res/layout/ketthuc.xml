@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_white_corner_16"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:text="Xin chúc mừng"
+        android:background="@drawable/bg_yellow_corner"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/sao1"
+            android:id="@+id/Sao1"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/sao1"
+            android:id="@+id/Sao2"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/sao1"
+            android:id="@+id/Sao3"/>
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/nao"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_gravity="center_horizontal"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/phaohoa"></com.airbnb.lottie.LottieAnimationView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#FFC107"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:text="Win"/>
+    <TableRow
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:background="@drawable/bg_yellow_corner2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:text="Tiếp tục"
+            android:id="@+id/tieptuc"/>
+
+        <Button
+            android:background="@drawable/bg_yellow_corner1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:text="Trở lại"
+            android:id="@+id/trolai"/>
+    </TableRow>
+
+
+</LinearLayout>

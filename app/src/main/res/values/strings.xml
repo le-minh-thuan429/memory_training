@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rèn luyện trí nhớ</string>
+    <string name="Open">Open Navigation Drawer</string>
+    <string name="Close">Close Navigation Drawer</string>
+    <string name="Gioithieu">Rèn luyện trí nhớ</string>
+    <string name="Gioithieu1">Trò chơi trí nhớ này sẽ tăng kỹ năng trí óc bạn và sẽ khiến bộ não của bạn rất thông minh để giải quyết các vấn đề và khó khăn trong cuộc sống.Trò chơi là miễn phí, ngoại tuyến và rất hữu ích và thú vị cho mọi lứa tuổi</string>
+    <string name="QuyTac1">- Nếu bạn gặp khó khăn, bạn có thể chọn sự trợ giúp bằng cách nhấn vào biểu tượng bóng đèn. Lưu ý, khi sử dụng bạn sẽ bị trừ 2 sao nếu hêt sao bạn sẽ không được sử dụng nữa.</string>
+    <string name="QuyTac2">- Bạn có thể nhận được sao sau mỗi lần qua Lever. Tối đa 3 sao, nhận được nhiều hay ít còn tùy thuộc vào thời gian bạn chơi</string>
+    <string name="QuyTac">- Quy tắc rất đơn giản. Đầu tiên bạn nhấn Go để bắt đầu trò chơi khi đó thời gian sẽ được bắt đầu tính. Hình ảnh sẽ bị ẩn đi sau mỗi lần chọn, bạn sẽ phải ghi nhớ vị trí của hình ảnh đó và chọn đúng theo cặp, Khi thực hiện hết bạn sẽ chiến thắng </string>
+</resources>

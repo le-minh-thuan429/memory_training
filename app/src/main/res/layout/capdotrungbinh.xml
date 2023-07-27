@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    tools:context=".CapDoDe">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="450dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/hinh1"/>
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/hinh2"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+
+            >
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/hinh3"/>
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/hinh4"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+
+            >
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/hinh5"/>
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/hinh6"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            >
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/hinh7"/>
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/hinh8"/>
+
+        </TableRow>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:background="@drawable/khung1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/trogiup"
+            android:layout_width="118dp"
+            android:layout_height="238dp"
+            android:layout_gravity="left|center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/dong3"></com.airbnb.lottie.LottieAnimationView>
+
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center|top">
+            <ImageButton
+                android:id="@+id/sao"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sao"
+                />
+
+            <TextView
+                android:id="@+id/sao1"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+
+                />
+        </LinearLayout>
+        <TableRow
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:text="------------------"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/Lever"
+                android:layout_gravity="center"
+                android:text="LV1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+
+                android:layout_gravity="center"
+                android:text="------------------"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+
+
+        <TextView
+            android:id="@+id/Thoigian"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|bottom"
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="00:00"
+            android:textColor="@color/black"
+            />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/start"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right|center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/start"></com.airbnb.lottie.LottieAnimationView>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_white_corner_16"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:text="Xin chúc mừng"
+        android:background="@drawable/bg_yellow_corner"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#FFFEFB"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text=" RESET toàn bộ Lever ?"/>
+    </LinearLayout>
+
+
+    <TableRow
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:background="@drawable/bg_yellow_corner2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:text="Cancel"
+            android:id="@+id/cancel"/>
+
+        <Button
+            android:background="@drawable/bg_yellow_corner1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:text="ok"
+            android:id="@+id/ok"/>
+    </TableRow>
+
+
+</LinearLayout>
